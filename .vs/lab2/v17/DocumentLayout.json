@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\lab2\\model\\maxsumsequencefinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|solutionrelative:lab2\\model\\maxsumsequencefinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\lab2\\utils\\dataparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|solutionrelative:lab2\\utils\\dataparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\lab2\\utils\\settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|solutionrelative:lab2\\utils\\settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\lab2\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|solutionrelative:lab2\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\lab2\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|solutionrelative:lab2\\viewmodel\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\lab2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|solutionrelative:lab2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198C405B-AC73-4BE3-8F7C-E163FA49C921}|TestLab2\\TestLab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\testlab2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{198C405B-AC73-4BE3-8F7C-E163FA49C921}|TestLab2\\TestLab2.csproj|solutionrelative:testlab2\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\lab2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|solutionrelative:lab2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198C405B-AC73-4BE3-8F7C-E163FA49C921}|TestLab2\\TestLab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\testlab2\\testlab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{198C405B-AC73-4BE3-8F7C-E163FA49C921}|TestLab2\\TestLab2.csproj|solutionrelative:testlab2\\testlab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{198C405B-AC73-4BE3-8F7C-E163FA49C921}|TestLab2\\TestLab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\testlab2\\testlab2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{198C405B-AC73-4BE3-8F7C-E163FA49C921}|TestLab2\\TestLab2.csproj|solutionrelative:testlab2\\testlab2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\lab2\\startup_settings.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|solutionrelative:lab2\\startup_settings.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\lab2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|solutionrelative:lab2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|d:\\main\\_education\\4_semestr\\ssd_software_systems_development\\lab2\\lab2\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85BBE0CC-BF25-4E8A-9953-388B9C44BA04}|lab2\\lab2.csproj|solutionrelative:lab2\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 217,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\viewmodel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "lab2\\viewmodel\\MainViewModel.cs",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\viewmodel\\MainViewModel.cs",
+              "RelativeToolTip": "lab2\\viewmodel\\MainViewModel.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAACoBAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T23:52:37.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataParser.cs",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\utils\\DataParser.cs",
+              "RelativeDocumentMoniker": "lab2\\utils\\DataParser.cs",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\utils\\DataParser.cs",
+              "RelativeToolTip": "lab2\\utils\\DataParser.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T09:42:32.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MaxSumSequenceFinder.cs",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\model\\MaxSumSequenceFinder.cs",
+              "RelativeDocumentMoniker": "lab2\\model\\MaxSumSequenceFinder.cs",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\model\\MaxSumSequenceFinder.cs",
+              "RelativeToolTip": "lab2\\model\\MaxSumSequenceFinder.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAACAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T00:13:02.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingsManager.cs",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\utils\\SettingsManager.cs",
+              "RelativeDocumentMoniker": "lab2\\utils\\SettingsManager.cs",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\utils\\SettingsManager.cs",
+              "RelativeToolTip": "lab2\\utils\\SettingsManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T21:18:02.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\TestLab2\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestLab2\\UnitTest1.cs",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\TestLab2\\UnitTest1.cs",
+              "RelativeToolTip": "TestLab2\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T21:15:57.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\App.xaml",
+              "RelativeDocumentMoniker": "lab2\\App.xaml",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\App.xaml",
+              "RelativeToolTip": "lab2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-24T21:19:28.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "startup_settings.txt",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\startup_settings.txt",
+              "RelativeDocumentMoniker": "lab2\\startup_settings.txt",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\startup_settings.txt",
+              "RelativeToolTip": "lab2\\startup_settings.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-24T21:41:52.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "lab2\\MainWindow.xaml",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\MainWindow.xaml",
+              "RelativeToolTip": "lab2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-17T23:50:40.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\viewmodel\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "lab2\\viewmodel\\RelayCommand.cs",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\viewmodel\\RelayCommand.cs",
+              "RelativeToolTip": "lab2\\viewmodel\\RelayCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T00:02:08.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab2\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "lab2\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T23:50:39.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestLab2",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\TestLab2\\TestLab2.csproj",
+              "RelativeDocumentMoniker": "TestLab2\\TestLab2.csproj",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\TestLab2\\TestLab2.csproj",
+              "RelativeToolTip": "TestLab2\\TestLab2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-24T23:04:49.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TestLab2.csproj",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\TestLab2\\TestLab2.csproj",
+              "RelativeDocumentMoniker": "TestLab2\\TestLab2.csproj",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\TestLab2\\TestLab2.csproj",
+              "RelativeToolTip": "TestLab2\\TestLab2.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-24T23:05:22.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "lab2\\AssemblyInfo.cs",
+              "ToolTip": "D:\\main\\_education\\4_semestr\\SSD_software_systems_development\\lab2\\lab2\\AssemblyInfo.cs",
+              "RelativeToolTip": "lab2\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T23:50:52.004Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

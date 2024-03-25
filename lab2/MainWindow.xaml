@@ -1,0 +1,180 @@
+﻿<Window x:Class="lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab2.viewmodel"
+        mc:Ignorable="d"
+        Title="Max Sum Sequence Finder" Height="450" Width="800">
+    <Window.Resources>
+        <!-- Стили -->
+        <Style x:Key="HeaderTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#88000000" Direction="315" ShadowDepth="2" Opacity="0.5" BlurRadius="5"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="InputTextBoxStyle" TargetType="TextBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#88000000" Direction="315" ShadowDepth="2" Opacity="0.5" BlurRadius="5"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <!-- Стиль для кнопок -->
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Background" Value="#FF3498DB"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#88000000" Direction="315" ShadowDepth="2" Opacity="0.5" BlurRadius="5"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="10" Margin="3">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF167ABE"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <!-- Стиль для элементов списка -->
+        <Style x:Key="ListBoxItemStyle" TargetType="ListBoxItem">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <!-- Стиль для отображения результата -->
+        <Style x:Key="ResultTextStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="24"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin" Value="20"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+
+        <BooleanToVisibilityConverter
+            x:Key="BoolToVisibilityConverter"
+            />
+    </Window.Resources>
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        
+        <StackPanel>
+            <Menu Margin=" 0 0 0 20">
+                <MenuItem Header="Информация о разработчике">
+                    <MenuItem Header="Показать информацию"
+                              Command="{Binding ShowStartupInfoCommand}"
+                              />
+                </MenuItem>
+            </Menu>
+            <!-- ListBox for displaying items -->
+            <ListBox 
+            ItemsSource="{Binding InputItems}"
+            ItemContainerStyle="{StaticResource ListBoxItemStyle}"
+            ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel 
+                        Orientation="Horizontal">
+                            <TextBlock
+                            Text="{Binding Index, StringFormat='Элемент № {0}'}"
+                            Margin="5"/>
+                            <TextBox
+                            Text="{Binding Value}"
+                            Width="200"
+                            Margin="5"
+                            />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <!-- Button to add new item -->
+            <Button 
+                Content="+"
+                Height="50"
+                Width="50"
+                Command="{Binding AddNewItemCommand}"
+                Style="{StaticResource ButtonStyle}" />
+            <Button
+                Content="Найти последовательность"
+                Command="{Binding FindMaxSumSequenceCommand}"
+                Height="50"
+                Width="250"
+                Style="{StaticResource ButtonStyle}" />
+            <Button
+                Content="Загрузить из файла"
+                Command="{Binding LoadDataFromFileCommand}"
+                Height="50"
+                Width="250"
+                Style="{StaticResource ButtonStyle}" />
+            <Button
+                Content="Сохранить результат"
+                Height="50"
+                Width="250"
+                Visibility="{Binding IsSaveButtonVisible, Converter={StaticResource BoolToVisibilityConverter}}"
+                Command="{Binding SaveResultCommand}"
+                Style="{StaticResource ButtonStyle}" />
+
+            <!-- TextBlock to display result -->
+            <TextBlock 
+                HorizontalAlignment="Center"
+                Text="{Binding Result}"
+                Style="{StaticResource ResultTextStyle}"
+                Margin="50"/>
+            <TextBlock
+                HorizontalAlignment="Center"
+                Text="{Binding ResultSum}"
+                Style="{StaticResource ResultTextStyle}"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
